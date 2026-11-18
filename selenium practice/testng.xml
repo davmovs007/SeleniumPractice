@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Atelier Retail Storefront Suite (39 Test Cases)" verbose="1">
+    <test name="All Atelier Storefront Tests">
+        <classes>
+            <!-- Part 1: Original 18 Test Cases -->
+            <class name="org.example.tests.NavigationAndHeaderTests"/>
+            <class name="org.example.tests.ProductPreviewTests"/>
+            <class name="org.example.tests.ProductConfigurationTests"/>
+            <class name="org.example.tests.LowerPageControlsTests"/>
+            <class name="org.example.tests.UIAccessibilityTests"/>
+
+            <!-- Part 2: Additional 21 Test Cases -->
+            <class name="org.example.tests.StudioProConfiguratorBagTests"/>
+            <class name="org.example.tests.AccessoriesCatalogTests"/>
+            <class name="org.example.tests.ExpressCheckoutTests"/>
+            <class name="org.example.tests.CheckoutVerificationTests"/>
+            <class name="org.example.tests.FinalAuthorizationTests"/>
+            <class name="org.example.tests.TaxAndDocumentsTests"/>
+        </classes>
+    </test>
+</suite>
